@@ -1,11 +1,11 @@
+var1 = int(input("please enter first number"))
+var2 = int(input("please enter second number"))
 print('Add +')
 print('Subtract -')
 print('Multiply *')
 print('Divide /')
 print('square s')
-var1 = input(int (0))
-var3 = input('choose calculation')
-var2 = input(int (0))
+var3 = input("please choose calculation:")
 
 
 if var3 == '+':
