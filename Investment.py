@@ -5,5 +5,6 @@ years = 0
 while initial_investment < target_value:
     initial_investment += initial_investment * interest_rate
     years += 1
-    print(f"It will take", years,"years for the initial investment to grow to", target_value, "at a", interest_rate,"%", "interest rate.")
+
+print(f"It will take", years,"years for the initial investment to grow to", target_value, "at a", interest_rate,"%", "interest rate.")
   
