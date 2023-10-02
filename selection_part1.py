@@ -1,4 +1,4 @@
-age=input(int)
+age=int (input("please enter your age:"))
 if age >= 18:
     print('You are in category A')
 elif age == 16:
