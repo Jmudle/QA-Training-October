@@ -6,8 +6,10 @@ class Bird(ABC):
         self.age = age
 
 class Owl(Bird):
-    def __init__(self,canfly, noise, extinct):
-        super().__init__('Owl')
+    def __init__(self, name, age, canfly, noise, extinct):
+        super(Bird).__init__('Owl')
+        self.name = name
+        self.age = age
         self.canfly = canfly
         self.noise = noise
         self.extinct = extinct
@@ -17,7 +19,10 @@ class Owl(Bird):
 
 
 class Dodo(Bird):
-    def __init__(self, canfly, noise, extinct):
+    def __init__(self, name, age, canfly, noise, extinct):
+        super(Bird).__init__('Dodo')
+        self.name = name
+        self.age = age 
         self.canfly = canfly
         self.noise = noise
         self.extinct = extinct
