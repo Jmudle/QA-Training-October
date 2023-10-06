@@ -12,7 +12,7 @@ def dbQuery(query):
     return result
 
 #result = dbQuery("SELECT * FROM salesperson ORDER BY salary DESC")#
-result = dbQuery("SELECT * FROM salesperson WHERE county = 'Surrey'")
+result = dbQuery("SELECT * FROM company WHERE county = 'London'")
 
 for row in result:
     print(row)
